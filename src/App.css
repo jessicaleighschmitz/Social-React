@@ -1,26 +1,9 @@
+*{
+    /* border: solid 1px #000; */
+}
+
 .App {
   text-align: center;
-}
-
-
-.App-header {
-  background-color: #444;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
 .header{
   display: flex;
@@ -28,5 +11,19 @@
 }
 .avatar{
   width: 150px;
+  border-radius: 50%;
+}
+.user-intro, .user-text{
+  max-width: 250px;
+}
+.left-bar{
+
+}
+.main-content{
+  display: flex;
+  justify-content: space-around;
+}
+.user-other{
+  max-width: 100px;
   border-radius: 50%;
 }
